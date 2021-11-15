@@ -1,0 +1,92 @@
+* {
+    font-family: century gothic;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(....) no-repeat fixed;
+    background-size: 60% 100%;
+}
+
+/* container styles */
+.container {
+    background-color: #fff;
+    width: 60%;
+    padding: 20px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    overflow: auto;
+}
+
+h1, h2, form, small {
+    margin: 10px 20px;
+}
+
+h1 {
+    color: teal;
+    text-align: center;
+}
+
+
+
+/* form styles */
+label {
+    margin: 5px;
+    color: grey;
+}
+
+input[type="email"], input[type="password"], input[type="text"], input[type="date"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    width: 100px;
+    padding: 10px;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: steelblue;
+    border: 1px solid skyblue;
+    transition: 0.5s;
+}
+
+input:focus {
+    outline: none;
+}
+
+.forgetpassword {
+    float: right;
+    margin-top: 15px;
+    text-decoration: none;
+    color: blue;
+}
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+.error {
+    color: tomato;
+}
+.submitBtn:disabled {
+    background-color: gray;
+}
